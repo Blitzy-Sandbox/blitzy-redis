@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: blitzy-redis
+  description: "Redis in-memory data store fork — exploring AI-assisted high-performance data infrastructure"
+  tags:
+    - c
+    - scaffolded
+  labels:
+    blitzy.com/status: scaffolded
+    blitzy.com/language: c
+  annotations:
+    github.com/project-slug: Blitzy-Sandbox/blitzy-redis
+    backstage.io/source-location: url:https://github.com/Blitzy-Sandbox/blitzy-redis/tree/unstable/
+  links:
+    - url: https://github.com/Blitzy-Sandbox/blitzy-redis
+      title: GitHub Repository
+    - url: https://github.com/Blitzy-Sandbox/blitzy-redis/tree/unstable/blitzy/documentation
+      title: Blitzy Documentation
+      icon: docs
+spec:
+  type: service
+  lifecycle: experimental
+  owner: blitzy-sandbox
+  system: blitzy-sandbox-projects
